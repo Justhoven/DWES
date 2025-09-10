@@ -16,13 +16,16 @@ $suma = 0;
 foreach($posicion as $key=>$value){
     if($cont%2 == 1){
         echo "Estás en una posición impar <br>";
-
+        $impar = true;
+        $par = false;
     }else{
         echo "Estás en una posición par <br>";
-
+        $impar = false;
+        $par = true;
     }
 
     //No entiendo lo de asignar a las variables impar y par el valor falso o verdadero...
+    //EDIT: He hecho eso, a ver si está bien
 
     $suma += $key;
 
