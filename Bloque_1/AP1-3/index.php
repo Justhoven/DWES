@@ -25,7 +25,7 @@ foreach($posicion as $key=>$value){
     }
 
     //No entiendo lo de asignar a las variables impar y par el valor falso o verdadero...
-    //EDIT: He hecho eso, a ver si está bien
+    //EDIT: He hecho eso, a ver si ahora está bien
 
     $suma += $key;
 
