@@ -19,9 +19,9 @@
 $areaCirculo = area_circulo(4);
 $areaRectangulo = area_rectangulo(7, 4);
 
-/*echo "El área del <b>triángulo</b> es de: " . $areaTriangulo . "cm<br>";
-echo "El área del <b>rectángulo</b> es de: " . $areaRectangulo . "cm<br>";
-echo "El área del <b>circulo</b> es de: " . $areaCirculo . "cm<br>";*/
+echo $areaTriangulo;
+echo $areaRectangulo;
+echo $areaCirculo;
 
 function area_triangulo($base, $altura){
     $areaT = ($base * $altura)/2;
@@ -30,12 +30,12 @@ function area_triangulo($base, $altura){
 
 function area_circulo($radio){
     $areaC = pi() * pow($radio, 2);
-    return $areaC;
+    return "El área del <b>circulo</b> es de: " . $areaC . "cm.<br>";
 }
 
 function area_rectangulo($base, $altura){
     $areaR = $base * $altura;
-    return $areaR;
-}
+    return "El área del <b>rectángulo</b> es de: " . areaR . "cm.<br>";
+}*/
 
 ?>
